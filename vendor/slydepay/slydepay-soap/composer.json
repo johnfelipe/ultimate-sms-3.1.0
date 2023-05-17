@@ -1,0 +1,25 @@
+{
+    "name": "slydepay/slydepay-soap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Smith",
+            "email": "a.smith@silentworks.co.uk"
+        },
+        {
+            "name": "Joseph Djomeda",
+            "email": "joseph@dreamoval.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slydepay\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^3.0"
+    }
+}
